@@ -51,7 +51,7 @@ export default function Testimonial() {
                     <a href="#" className="more">Read more</a>
                 </div>
                 <div className="rcard">
-                    <figure><img src="./assets/img/thumb.png" alt="" /></figure>
+                    <figure><img src={thumb} alt="" /></figure>
                     <p className="username">Google Username</p>
                     <span className="starsec">
                         <span className="fa fa-star checked"></span>
