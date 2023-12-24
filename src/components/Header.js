@@ -3,6 +3,7 @@ import damansarac from '../images/damansara-chiropractic.png';
 import damansaracLogo from "../images/damansara-chiropractic-logo.png"
 
 export default function Header() {
+
   return (
     <header className="header" >
         <div className="wrapper">

@@ -1,10 +1,12 @@
 import React from 'react';
 
 export default function Footer() {
+    const d = new Date();
+    let year = d.getFullYear();
   return ( 
     <section className="footer">
         <div className="wrapper">
-            <p>© 2024 Damansara Chiropractic</p>
+            <p>© {year} Damansara Chiropractic</p>
         </div>
     </section>
   );
