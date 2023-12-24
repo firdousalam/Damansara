@@ -252,4 +252,5 @@ header .mob-menu{display: none;}
     .contact .contacwrap figure img{height: 50px;}
 
     .footer p{text-align: center;}
+    .logiImage { max-width: 75% !important;margin-left: 5px;}
 }
