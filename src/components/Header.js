@@ -10,7 +10,7 @@ export default function Header() {
             <div className="hLeft">
                 <a href="#scrolltop">
                     <span className="logo"><img src={damansaracLogo} alt="" /></span>
-                    <img src={damansarac} alt="damansarac" className="cName" />
+                    <img src={damansarac} alt="damansarac" className="logo" />
                 </a>
             </div>
             <div className="hRight">
