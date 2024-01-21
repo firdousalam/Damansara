@@ -14,7 +14,7 @@ export default function Header() {
                 </a>
             </div>
             <div className="hRight">
-                <span className="mob-menu" data-bs-toggle="collapse"  data-bs-target="#navbarSupportedContent"><i className="fa fa-bars" aria-hidden="true"></i></span>
+                <button class="mob-menu" data-bs-toggle="collapse"  data-bs-target="#navbarSupportedContent"><i class="fa fa-bars" aria-hidden="true"></i></button>
                 <ul id="navbarSupportedContent">
                     <li><a href="#services">Our Services</a></li>
                     <li><a href="#team">Meet Our Team</a></li>
