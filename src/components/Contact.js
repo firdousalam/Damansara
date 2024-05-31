@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <section className="contact" id="contact">
         <div className="wrapper">
-            <p>If you're ready to take the first step towards a healthier, more vibrant life, contact us today to schedule an appointment.</p>
+            {/* <p>If you're ready to take the first step towards a healthier, more vibrant life, contact us today to schedule an appointment.</p> */}
             <p>We'll be happy to answer any questions you may have about our services and help you get started on your journey towards optimal health and wellness.</p>
             <div className="contacwrap">
                 <a
@@ -30,9 +30,9 @@ export default function Contact() {
                 <p > Operating Hours<br/>MON - SAT : 10am - 5pm<br/>SUN/PUBLIC HOLIDAYS : CLOSED</p>
             </div>
         </div>
-        <div className="map">
+        {/* <div className="map">
             <img src={map} alt="" />
-        </div>
+        </div> */}
     </section>
   );
 }
