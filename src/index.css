@@ -3,9 +3,9 @@
 
 img{max-width: 100%;}
 
-body{color: #1A1A1A; font-family: 'Archivo', sans-serif; font-size: 16px; line-height: 125%; padding-top: 100px; }
+body{color: #1A1A1A; font-family: 'Archivo', sans-serif; font-size: 16px; line-height: 125%; padding-top: 1px; }
 
-p{margin-bottom: 40px; font-size: 20px; line-height: 32px;}
+p{margin-bottom: 30px; font-size: 15px; line-height: 20px;}
 a{text-decoration: none; color: #1A1A1A;}
 a:hover{text-decoration: none; color: #1C2B77;}
 
@@ -127,11 +127,11 @@ header .mob-menu{display: none;}
 }
 
 @media (max-width: 1200px){
-    body{padding-top: 80px;}
+    body{padding-top: 10px;}
     h1 {font-size: 40px;}
     h2{font-size: 28px;}
     h3{font-size: 20px;}
-    p {font-size: 18px; line-height: 30px;}
+    p {font-size: 18px; line-height: 25px;}
 
     header .wrapper{padding: 0 32px; align-items: flex-end;}
     header .wrapper .hLeft{padding: 8px 0 16px;}
@@ -189,7 +189,7 @@ header .mob-menu{display: none;}
 
 
 @media (max-width: 767px){
-    body{padding-top: 66px;}
+    body{padding-top: 16px;}
     h1 {font-size: 32px;}
     h2{font-size: 24px;}
     h3{font-size: 18px;}
